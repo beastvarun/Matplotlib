@@ -35,7 +35,7 @@ X=[]
 Y=[]
 Plt.bar(x,y)
 Plt.show()
-#CODE
+#CODE1
 import matplotlib.pyplot as plt
 x=["python","c","c++","java"]
 y=[85,70,60,82]
@@ -49,7 +49,7 @@ plt.show
 
 
 
-#CODE
+#CODE2
 x=["python","c","c++","java"]
 y=[85,70,60,82]
 z=[20,30,40,50]
@@ -65,7 +65,7 @@ plt.show
 
 Showing two graphs side by side
 
-#CODE
+#CODE3
 import matplotlib.pyplot as plt
 import numpy as np
 x=["python","c","c++","java"]
@@ -90,7 +90,7 @@ plt.show()
 
 
 #Horizontal bar graph
-#CODE
+#CODE4
 import matplotlib.pyplot as plt
 import numpy as np
 x=["python","c","c++","java"]
