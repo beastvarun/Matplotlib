@@ -143,3 +143,40 @@ Plt.show()
 
 
 
+#Matplotlib Scatter Plot
+import matplotlib.pyplot as plt
+day=[1,2,3,4,5,6,7]
+no=[2,3,1,4,5,3,6]
+c=['r','b','g','y','r','g','y']
+plt.scatter(day,no,color=c )
+plt.title("Scatter plot",fontsize=15)
+plt.xlabel("Day",fontsize=15)
+plt.ylabel("No",fontsize=15)
+plt.show()
+
+
+
+
+3-D Scatter=plot
+import numpy as np
+fig3=plt.figure()
+ax=plt.axes(projection='3d')
+z=20*np.random.random(100)
+x=np.sin(z)
+y=np.cos(z)
+ax.scatter(x,y,z,c=z,cmap='Blues')
+plt.show()
+
+
+
+Pie chart
+fig1=plt.figure()
+ax=fig1.add_axes([0,0,1,1])
+language=['English','french','spanish','latin','geraman']
+people=[100,50,150,40,70]
+ax.pie(people,labels=language,autopct='%1.1f%%')
+plt.show()
+
+
+
+
